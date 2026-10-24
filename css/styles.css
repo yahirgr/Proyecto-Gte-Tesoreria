@@ -1,0 +1,23 @@
+/* Componentes propios de OMEX Treasury (CSS plano; antes eran @apply de Tailwind).
+   Las clases utilitarias (flex, p-4, text-cyan-300, ...) las aporta Tailwind por CDN en index.html. */
+
+/* Tabla */
+.t { width: 100%; font-size: .875rem; line-height: 1.25rem; }
+.t th { position: sticky; top: 0; background: #1e293b; color: #67e8f9; text-align: left; padding: .375rem .5rem; font-weight: 600; }
+.t td { padding: .25rem .5rem; border-bottom: 1px solid #1e293b; }
+
+/* Campos de formulario */
+.inp { width: 100%; background: #0f172a; border: 1px solid #334155; border-radius: .25rem; padding: .25rem .5rem; font-size: .875rem; line-height: 1.25rem; color: inherit; }
+.inp:focus { outline: none; border-color: #06b6d4; }
+.inp:disabled { opacity: .6; cursor: not-allowed; }
+
+/* Botón principal */
+.btn { background: #2563eb; color: #fff; border: 0; border-radius: .25rem; padding: .375rem .75rem; font-size: .875rem; line-height: 1.25rem; cursor: pointer; }
+.btn:hover { background: #3b82f6; }
+
+/* Tarjeta */
+.card { background: #0f172a; border: 1px solid #1e293b; border-radius: .5rem; padding: 1rem; }
+
+/* Elemento del menú lateral */
+.nav { display: flex; align-items: center; gap: .5rem; padding: .5rem .75rem; font-size: .875rem; line-height: 1.25rem; border-radius: .25rem; cursor: pointer; }
+.nav:hover { background: #1e293b; }

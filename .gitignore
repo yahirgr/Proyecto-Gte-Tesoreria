@@ -1,0 +1,9 @@
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/
+*.suo
+*.user
+# Opcional (solo si corres las pruebas con Node)
+node_modules/
